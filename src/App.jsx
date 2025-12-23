@@ -32,10 +32,10 @@ export default function App() {
   ];
 
   const links = [
-  { id: 1, text: "Developing Front-End Apps with React", url: "https://www.coursera.org/account/accomplishments/verify/D0HQW05VJJ17" },
+  { id: 1, text: "Introduction to HTML, CSS, & JavaScript", url: "https://coursera.org/share/ce847f42a0c14ae3a3c7a267e02a45c5" },
   { id: 2, text: "Getting Started with Git and GitHub", url: "https://www.coursera.org/account/accomplishments/verify/3DGO77R9Z9XJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" },
   { id: 3, text: "Introduction to Cloud Computing", url: "https://www.coursera.org/account/accomplishments/verify/2KQCHQO35A0N" },
-  { id: 4, text: "Introduction to HTML, CSS, & JavaScript", url: "https://www.coursera.org/account/accomplishments/verify/1SU9PT5ZQVMC" },
+  { id: 4, text: "Developing Front-End Apps with React", url: "https://coursera.org/share/d7552028c12aae7f243e97d065907eed" },
   { id: 5, text: "Introduction to Software Engineering", url: "https://www.coursera.org/account/accomplishments/verify/UOTDBA0N4G6O" }
 
 ];
@@ -102,7 +102,7 @@ const projects = [
         <h3 className="intro">HI! This is...</h3>
         <h1 className="hero-name">JENNILYN <span>SALAVER</span></h1>
         <p className="hero-role">Information Technology</p>
-        <h3>Practical experience gained through personal projects and continuous learning. Familiar with front-end development fundamentals, basic backend concepts, and collaboration tools. Able to follow structured processes, troubleshoot issues, and adapt to new technologies quickly.</h3>
+        <h3>I am an aspiring IT professional with a strong interest in building and improving digital solutions. I develop my skills through hands-on practice and personal projects, focusing on modern web technologies, problem-solving and structured workflows.</h3>
         
 
         <div className="skills">
@@ -159,8 +159,7 @@ const projects = [
   <div className="about-label">
     <h1>ABOUT ME</h1>
     <p className="caption">
-      I am an aspiring IT professional with a strong interest in building and improving digital solutions. 
-      I develop my skills through hands-on practice and personal projects, focusing on modern web technologies, problem-solving and structured workflows. 
+          Practical experience gained through personal projects and continuous learning. Familiar with front-end development fundamentals, basic backend concepts, and collaboration tools. Able to follow structured processes, troubleshoot issues, and adapt to new technologies quickly.
     </p>
   
     </div>
