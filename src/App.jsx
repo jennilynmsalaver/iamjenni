@@ -102,7 +102,7 @@ const projects = [
         <h3 className="intro">HI! This is...</h3>
         <h1 className="hero-name">JENNILYN <span>SALAVER</span></h1>
         <p className="hero-role">Information Technology</p>
-        <h3>I build high-impact digital experiences using modern web technologies that prioritize performance, scalability and real user impact.</h3>
+        <h3>Practical experience gained through personal projects and continuous learning. Familiar with front-end development fundamentals, basic backend concepts, and collaboration tools. Able to follow structured processes, troubleshoot issues, and adapt to new technologies quickly.</h3>
         
 
         <div className="skills">
@@ -159,8 +159,8 @@ const projects = [
   <div className="about-label">
     <h1>ABOUT ME</h1>
     <p className="caption">
-      I am a highly motivated and aspiring Front-End Developer with a strong, principle-driven foundation in modern web technologies and core software engineering concepts. My background has equipped me with an understanding of scalable architecture, clean code practices and the full software development lifecycle.
-      I thrive in collaborative team environments where I can contribute my skills, learn from experienced developers, and actively participate in code reviews. I am a proactive learner, eager to tackle new challenges, master emerging technologies, and continuously optimize development processes to build efficient and maintainable codebases.
+      I am an aspiring IT professional with a strong interest in building and improving digital solutions. 
+      I develop my skills through hands-on practice and personal projects, focusing on modern web technologies, problem-solving and structured workflows. 
     </p>
   
     </div>
