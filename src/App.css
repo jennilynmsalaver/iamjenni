@@ -577,6 +577,11 @@ h3 {
   margin: 24px 0;
 }
 
+.contact-list a {
+  color: #aaa;
+  text-decoration: none;
+}
+
 .contact-list li {
   display: flex;
   align-items: center;

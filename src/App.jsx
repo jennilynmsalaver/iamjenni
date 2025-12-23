@@ -311,29 +311,39 @@ const projects = [
         <h3>Let’s Connect</h3>
 
         <ul className="contact-list">
-          <li>
-            <FaEnvelope />
-            <div>
-              <strong>Email</strong>
-              <span>jennilyn.m.salaver@gmail.com</span>
-            </div>
-          </li>
+         <li>
+          <FaEnvelope />
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:jennilyn.m.salaver@gmail.com">
+              jennilyn.m.salaver@gmail.com
+            </a>
+          </div>
+        </li>
 
-          <li>
-            <FaPhone />
-            <div>
-              <strong>Phone</strong>
-              <span>+63 916 666 3287</span>
-            </div>
-          </li>
+        <li>
+          <FaPhone />
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:+639166663287">
+              +63 916 666 3287
+            </a>
+          </div>
+        </li>
 
-          <li>
-            <FaMapMarkerAlt />
-            <div>
-              <strong>Location</strong>
-              <span>Manila, Philippines</span>
-            </div>
-          </li>
+        <li>
+          <FaMapMarkerAlt />
+          <div>
+            <strong>Location</strong>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Manila,Philippines"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Manila, Philippines
+            </a>
+          </div>
+        </li>
 
           <li>
             <FaClock />
@@ -376,20 +386,33 @@ const projects = [
         <h3>Send me a message</h3>
         <p className="small">I’ll get back to you within 24 hours</p>
 
-        <form
-          className="contact-form"
-          onSubmit={(e) => e.preventDefault()}
-        >
-          <div className="form-row">
-            <input type="text" placeholder="Your full name" />
-            <input type="email" placeholder="your.email@example.com" />
-          </div>
+            <form
+            className="contact-form"
+            onSubmit={(e) => {
+              e.preventDefault();
 
-          <input type="text" placeholder="What's this about?" />
-          <textarea placeholder="Tell me about your project or question..." />
+              const name = e.target.name.value;
+              const email = e.target.email.value;
+              const subject = e.target.subject.value;
+              const message = e.target.message.value;
 
-          <button type="submit">Send Message</button>
-        </form>
+              const mailtoLink = `mailto:jennilyn.m.salaver@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+                `Name: ${name}\nEmail: ${email}\n\n${message}`
+              )}`;
+
+              window.location.href = mailtoLink;
+            }}
+          >
+            <div className="form-row">
+              <input name="name" type="text" placeholder="Your full name" required />
+              <input name="email" type="email" placeholder="your.email@example.com" required />
+            </div>
+
+            <input name="subject" type="text" placeholder="What's this about?" required />
+            <textarea name="message" placeholder="Tell me about your project or question..." required />
+
+            <button type="submit">Send Message</button>
+          </form>
       </div>
     </div>
   </div>
